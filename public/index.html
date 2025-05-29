@@ -58,6 +58,9 @@
         <div class="projects-grid" id="projects-container">
             <!-- Projetos serão inseridos aqui via JavaScript -->
         </div>
+        <div class="project-actions">
+            <button id="new-project-btn" class="action-button">Novo Projeto</button>
+        </div>
     </section>
 
     <section id="habilidades" class="skills">
@@ -92,6 +95,35 @@
     <footer>
         <p>&copy; 2024 Portfolio Tech. Todos os direitos reservados.</p>
     </footer>
+
+    <!-- Modal para Criar/Editar Projeto -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title">Novo Projeto</h2>
+            <form id="project-form" class="modal-form">
+                <input type="hidden" id="project-id">
+                <div class="form-group">
+                    <input type="text" id="project-name" required placeholder="Nome do Projeto">
+                </div>
+                <div class="form-group">
+                    <textarea id="project-description" required placeholder="Descrição do Projeto"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="project-image" required placeholder="URL da Imagem">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="project-link" required placeholder="Link do Projeto">
+                </div>
+                <div class="form-group">
+                    <select id="project-category" required>
+                        <option value="">Selecione uma Categoria</option>
+                    </select>
+                </div>
+                <button type="submit" class="action-button">Salvar Projeto</button>
+            </form>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
