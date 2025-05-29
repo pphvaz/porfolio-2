@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Tech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Portfolio Tech</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Desenvolvedor Full Stack</h1>
+            <p>Transformando ideias em soluções digitais inovadoras</p>
+            <a href="#projetos" class="cta-button">Ver Projetos</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2>Pedro Alves</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Customer Success and Support na Brendi</h3>
+                    <p>Profissional com 5 anos de experiência, tendo iniciado na área administrativa e migrado para o setor de engenharia de confiabilidade e desenvolvimento de software. Atuei em empresas de setores como transporte pesado e aeronáutica, lidando com grandes fabricantes, incluindo Airbus e Boeing.</p>
+                    <p>Participei de projetos de destaque, como o desenvolvimento de sistemas de monitoramento de frota baseados em machine learning e liderando a criação de aplicações full-stack durante minha formação acadêmica.</p>
+                    <div class="tech-stack">
+                        <h4>Tecnologias e Habilidades:</h4>
+                        <ul>
+                            <li>Python, Flask, Django</li>
+                            <li>Java (SpringBoot)</li>
+                            <li>SQL, JPA, Hibernate</li>
+                            <li>PostgreSQL, MySQL</li>
+                            <li>TDD, Scrum</li>
+                            <li>Maven, GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects">
+        <h2>Meus Projetos</h2>
+        <div class="projects-grid" id="projects-container">
+            <!-- Projetos serão inseridos aqui via JavaScript -->
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills">
+        <h2>Habilidades</h2>
+        <div class="skills-container" id="skills-container">
+            <!-- Habilidades serão inseridas aqui via JavaScript -->
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Entre em Contato</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required placeholder="Seu Nome">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required placeholder="Seu Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required placeholder="Sua Mensagem"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/pphvaz" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pedro-alves-579a93140/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portfolio Tech. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
