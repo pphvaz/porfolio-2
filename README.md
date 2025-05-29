@@ -2,6 +2,10 @@
 
 Um portfólio profissional moderno e responsivo desenvolvido com Node.js, Express e MySQL.
 
+## 🎥 Demonstração
+
+[![Demo do Portfolio](https://img.youtube.com/vi/6q8WBR_V-7s/0.jpg)](https://youtu.be/6q8WBR_V-7s)
+
 ## 🚀 Tecnologias Utilizadas
 
 - **Frontend:**
