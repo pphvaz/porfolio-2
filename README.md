@@ -57,6 +57,7 @@ O servidor estará rodando em `http://localhost:3000`
 portfolio-2/
 ├── app.js              # Servidor Express e configurações
 ├── public/             # Arquivos estáticos
+│   ├── images/        # Imagens do projeto
 │   ├── index.html     # Página principal
 │   ├── styles.css     # Estilos
 │   └── script.js      # JavaScript do cliente
